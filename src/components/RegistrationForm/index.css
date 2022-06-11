@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.registration-container {
+  height: 100vh;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+@media (min-width: 768px) {
+  .registration-container {
+    align-items: center;
+  }
+}
+.main-heading {
+  color: #ea580c;
+  text-align: center;
+  margin: 50px 0;
+}
+@media (min-width: 768px) {
+  .main-heading {
+    font-size: 60px;
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .form-container {
+    width: 500px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+  }
+}
+.success-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .success-card-container {
+    width: 500px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+  }
+}
+.tick-img {
+  width: 100px;
+  margin: 30px 0 20px;
+}
+@media (min-width: 768px) {
+}
+.success-card-description {
+  font-size: 16px;
+  font-weight: bold;
+  color: #475569;
+  text-align: center;
+  margin: 16px 0;
+}
+@media (min-width: 768px) {
+}
+.label {
+  color: #475569;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 20px 0 5px;
+}
+@media (min-width: 768px) {
+}
+.initial-input-field {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #9aa5b1;
+  outline: none;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+}
+
+.error-input-field {
+  background-color: #fef2f4;
+  border: 1px solid #ff0b37;
+}
+@media (min-width: 768px) {
+}
+
+.error-message {
+  color: #ff0b37;
+  font-size: 14px;
+  font-weight: 500;
+}
+@media (min-width: 768px) {
+}
+
+.button {
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #ea580c;
+  padding: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 20px 0;
+}
+@media (min-width: 768px) {
+  .button {
+    font-size: 16px;
+    align-self: center;
+    padding: 8px 16px;
+    margin: 30px 0;
+  }
+}
+
+.request-btn {
+  align-self: stretch;
+  font-size: 12px;
+}
+@media (min-width: 768px) {
+  .request-btn {
+    align-self: center;
+    font-size: 14px;
+  }
+}
